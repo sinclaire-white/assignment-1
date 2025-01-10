@@ -1,0 +1,55 @@
+
+
+
+/* shared styles */
+body{
+    max-width: 1600px;
+    padding-left: 160px;
+    padding-right: 160px;
+    background-color: #F5F5F5;
+}
+.flex{
+    display: flex;
+}
+
+
+
+/* nav styles */
+
+nav{
+    justify-content: space-between;
+}
+
+
+/* banner styles */
+
+.banner{
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 100px;
+    gap: 64px;
+}
+.banner-head{
+    font-weight: 600;
+    font-size: 24px;
+    color: #0E0E0E;
+    opacity: 50%;
+    margin-bottom: 16px;
+}
+.banner-title
+{
+    font-weight: bold;
+    font-size: 56px;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+.banner-btn{
+    background-color: #006A50;
+    border-radius: 8px;
+    color: white;
+    padding: 17px 34px;
+    font-weight: 700;
+    font-size: 18px;
+}
