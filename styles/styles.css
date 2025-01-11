@@ -164,7 +164,7 @@ nav{
 .quote-container{
     padding: 48px 24px;
     background-color: white;
-    background-image: url(./images/quote-bg.png);
+    background-image: url(/images/quote-bg.png);
     background-position: 23px 30px;
     background-repeat: no-repeat;
     border-radius: 16px;
