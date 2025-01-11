@@ -11,7 +11,12 @@ body{
 .flex{
     display: flex;
 }
-
+main{
+    margin-bottom: 80px;
+}
+.max-width{
+    max-width: 1280px;
+}
 
 
 /* nav styles */
@@ -51,5 +56,222 @@ nav{
     color: white;
     padding: 17px 34px;
     font-weight: 700;
+    font-size: 18px;
+}
+
+
+
+
+/* vision styles */
+.vision-title{
+    font-weight: bold;
+    font-size: 40px;
+    color: #0E0E0E;
+    margin-bottom: 24px;
+}
+.vision-description{
+    font-size: 16px;
+    line-height: 24px;
+    color: #0E0E0E;
+    opacity: 70%;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+.vision-card-container{
+    gap: 24px;
+}
+.vision-card-1{
+    flex: 1;
+    padding: 32px;
+    border-radius: 16px;
+    background-color: rgba(84, 144, 245, 0.2);
+}
+.vision-card-2{
+    flex: 1;
+    padding: 32px;
+    border-radius: 16px;
+    background-color: rgba(198, 228, 214, 1);
+}
+.vision-card-3{
+    flex: 1;
+    padding: 32px;
+    border-radius: 16px;
+    background-color: rgba(247, 235, 207, 1);
+}
+.vision-card-title{
+    margin-top: 24px;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.8);
+}
+.vision-card-details{
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.7);
+    margin-top: 12px;
+}
+.vision-btn-1{
+    padding: 11px 20px;
+    background-color: #5490F5;
+    font-weight: 600;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 24px;
+}
+.vision-btn-2{
+    padding: 11px 20px;
+    background-color: #09A15C;
+    font-weight: 600;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 24px;
+}
+.vision-btn-3{
+    padding: 11px 20px;
+    background-color: #FFC239;
+    font-weight: 600;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 24px;
+}
+
+
+
+/* news styles */
+
+.news-title{
+    font-weight: bold;
+    font-size: 40px;
+    color: #0E0E0E;
+}
+.news-description{
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 32px;
+}
+
+.news-1{
+    background-color: white;
+    border-radius: 24px;
+    padding: 48px;
+    margin-bottom: 24px;
+    gap: 32px;
+    align-items: center;
+    justify-content: center;
+  
+}
+.news-2{
+    background-color: white;
+    border-radius: 24px;
+    padding: 48px;
+    margin-bottom: 24px;
+    gap: 32px;
+    align-items: center;
+    justify-content: center;
+   
+}
+.news-3{
+    background-color: white;
+    border-radius: 24px;
+    padding: 48px;
+    gap: 32px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.news-image{
+    border-radius: 24px;
+}
+.news-head{
+    font-weight: bold;
+    font-size: 32px;
+    color: rgba(14, 14, 14, 0.8);
+    margin-top: auto;
+    margin-bottom: 12px;
+}
+.time-date{
+    display: flex;
+    gap: 12px;
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    line-height: 23px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.news-details{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    line-height: 23px;
+    margin: auto 0;
+}
+.news-btn{
+    background-color: rgba(0, 106, 80, 1);
+    padding: 13px 26px;
+    color: white;
+    border-radius: 8px;
+    margin-top: 32px;
+}
+
+/* donate styles */
+.donate{
+    text-align: center;
+}
+.donate-title{
+    font-weight: bold;
+    font-size: 40px;
+    color: #0E0E0E;
+    margin-bottom: 32px;
+}
+.donate-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 32px;
+}
+.donate-card-container{
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+.donate-card{
+    padding: 40px;
+    background-color: white;
+    border-radius: 16px;
+    font-weight: bold;
+    font-size: 40px;
+    color: rgba(14, 14, 14, 0.8);
+
+}
+.duisho{
+    background-color: rgba(198, 228, 214, 1);
+}
+.Amount{
+    text-align: center;
+    padding: 20px 440px;
+    background-color: white;
+    border: none;
+    border-bottom : 1px solid rgba(14, 14, 14, 0.15);;
+    margin-bottom: 32px;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.3);;
+}
+
+.donate-btn{
+    background-color: #006A50;
+    color: white;
+    border-radius: 8px;
+    padding: 17px 34px;
+    border: none;
+    font-weight: 600;
     font-size: 18px;
 }
